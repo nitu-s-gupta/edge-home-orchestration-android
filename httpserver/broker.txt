@@ -1,0 +1,1572 @@
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PINGREQ from mosq-zPPbdjAYU6NiA0RNJn
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PINGRESP to mosq-zPPbdjAYU6NiA0RNJn
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New connection from 192.168.0.111 on port 8883.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New client connected from 192.168.0.111 as cs-mqtt-client_2068602178 (p2, c1, k120, u'61646d69-6e44-6576-6963-234231423444').
+D/MQTT    ( 5130): logging.c(325) log__vprintf: No will message specified.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending CONNACK to cs-mqtt-client_2068602178 (0, 0)
+I/MQTT    ( 5113): st-broker-handler.c: on_preconnect(418) > on_pre_connect callback
+I/MQTT    ( 5113): st-broker-handler.c: on_connect(396) > on_connect callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2068602178
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/cs/request/B827EB62-1721-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2068602178
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2068602178
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/cs/response/B827EB62-1721-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2068602178
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m4, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m4, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m5, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (166 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m5, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m1, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (166 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 1, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m6, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (197 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m6, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m2, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (197 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 2, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m7, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m7, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m8, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m8, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m9, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m9, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m10, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m10, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m11, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m11, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m12, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m12, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New connection from 192.168.0.108 on port 8883.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PINGREQ from mosq-zPPbdjAYU6NiA0RNJn
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PINGRESP to mosq-zPPbdjAYU6NiA0RNJn
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New client connected from 192.168.0.108 as cs-mqtt-client_3623239767 (p2, c1, k120, u'61646d69-6e44-6576-6963-234231423444').
+D/MQTT    ( 5130): logging.c(325) log__vprintf: No will message specified.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending CONNACK to cs-mqtt-client_3623239767 (0, 0)
+I/MQTT    ( 5113): st-broker-handler.c: on_preconnect(418) > on_pre_connect callback
+I/MQTT    ( 5113): st-broker-handler.c: on_connect(396) > on_connect callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_3623239767
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/request/B827EB01-5793-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_3623239767
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_3623239767
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/response/B827EB01-5793-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_3623239767
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_3623239767
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/noti/B827EB01-5793-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_3623239767
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_3623239767
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/cs/hub/info (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_3623239767
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m13, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m13, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m1, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 1, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_3623239767 (d0, q1, r0, m6, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (356 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_3623239767 (m6, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m3, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (356 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 3, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m14, '/v1/client/response/B827EB01-5793-1111-1111-111111111111', ... (203 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m14, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m2, '/v1/client/response/B827EB01-5793-1111-1111-111111111111', ... (203 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 2, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m15, '/v1/client/request/B827EB01-5793-1111-1111-111111111111', ... (166 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m15, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m3, '/v1/client/request/B827EB01-5793-1111-1111-111111111111', ... (166 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 3, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_3623239767 (d0, q1, r0, m7, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (198 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_3623239767 (m7, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m4, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (198 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 4, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m16, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m16, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m4, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 4, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m17, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m17, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m5, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 5, RC:0)
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New connection from 192.168.0.109 on port 8883.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_preconnect(418) > on_pre_connect callback
+V/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New client connected from 192.168.0.109 as cs-mqtt-client_2541956984 (p2, c1, k120, u'61646d69-6e44-6576-6963-234231423444').
+D/MQTT    ( 5130): logging.c(325) log__vprintf: No will message specified.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_connect(396) > on_connect callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending CONNACK to cs-mqtt-client_2541956984 (0, 0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2541956984
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/request/B827EB56-C97C-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2541956984
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2541956984
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/response/B827EB56-C97C-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2541956984
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2541956984
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/noti/B827EB56-C97C-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2541956984
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2541956984
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/cs/hub/info (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2541956984
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m18, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m18, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m6, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m1, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 6, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 1, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2541956984 (d0, q1, r0, m6, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (356 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2541956984 (m6, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m5, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (356 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 5, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m19, '/v1/client/response/B827EB56-C97C-1111-1111-111111111111', ... (224 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m19, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m2, '/v1/client/response/B827EB56-C97C-1111-1111-111111111111', ... (224 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 2, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m20, '/v1/client/request/B827EB56-C97C-1111-1111-111111111111', ... (166 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m20, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m3, '/v1/client/request/B827EB56-C97C-1111-1111-111111111111', ... (166 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 3, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2541956984 (d0, q1, r0, m7, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (198 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2541956984 (m7, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m6, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (198 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 6, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m21, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m21, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m7, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m4, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 4, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 7, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m22, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m22, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m8, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m5, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 8, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 5, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m23, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m23, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m9, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m6, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 6, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 9, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m24, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m24, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m10, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m7, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 7, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 10, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m25, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m25, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m11, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m8, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 11, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 8, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m26, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m26, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m12, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m9, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 12, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 9, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m27, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m27, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m13, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m10, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 13, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 10, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m28, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m28, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m14, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m11, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 11, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 14, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m29, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m29, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m15, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m12, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 15, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 12, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m30, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m30, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m16, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m13, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 16, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 13, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m31, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m31, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m17, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m14, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 14, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 17, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m32, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m32, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m18, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m15, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 15, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 18, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m33, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m33, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m19, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m16, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 19, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 16, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m34, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m34, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m20, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m17, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 17, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 20, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m35, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m35, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m21, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m18, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 21, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 18, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m36, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m36, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m22, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m19, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 22, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 19, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m37, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m37, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m23, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m20, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 23, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 20, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m38, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m38, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m24, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m21, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 21, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 24, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m39, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m39, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m25, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m22, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 22, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 25, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m40, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m40, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m26, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2541956984 (d0, q1, r0, m23, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 26, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2541956984 (Mid: 23, RC:0)
+E/MQTT    ( 5130): logging.c(325) log__vprintf: OpenSSL Error[0]: error:14095126:SSL routines:ssl3_read_n:unexpected eof while reading
+V/MQTT    ( 5130): logging.c(325) log__vprintf: Socket error on client cs-mqtt-client_2541956984, disconnecting.
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New connection from 192.168.0.109 on port 8883.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_preconnect(418) > on_pre_connect callback
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New client connected from 192.168.0.109 as cs-mqtt-client_2330768733 (p2, c1, k120, u'61646d69-6e44-6576-6963-234231423444').
+D/MQTT    ( 5130): logging.c(325) log__vprintf: No will message specified.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_connect(396) > on_connect callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending CONNACK to cs-mqtt-client_2330768733 (0, 0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2330768733
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/request/B827EB56-C97C-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2330768733
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2330768733
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/response/B827EB56-C97C-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2330768733
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2330768733
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/noti/B827EB56-C97C-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2330768733
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2330768733
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/cs/hub/info (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2330768733
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m41, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m41, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m27, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m1, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 1, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 27, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2330768733 (d0, q1, r0, m6, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (356 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2330768733 (m6, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m7, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (356 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 7, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m42, '/v1/client/response/B827EB56-C97C-1111-1111-111111111111', ... (224 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m42, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m2, '/v1/client/response/B827EB56-C97C-1111-1111-111111111111', ... (224 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 2, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m43, '/v1/client/request/B827EB56-C97C-1111-1111-111111111111', ... (166 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m43, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m3, '/v1/client/request/B827EB56-C97C-1111-1111-111111111111', ... (166 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 3, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2330768733 (d0, q1, r0, m7, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (198 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2330768733 (m7, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m8, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (198 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 8, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m44, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m44, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m28, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m4, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 4, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 28, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m45, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m45, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m29, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m5, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 29, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 5, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m46, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m46, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m30, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m6, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 30, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 6, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m47, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m47, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m31, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m7, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 7, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 31, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m48, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m48, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m32, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m8, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 32, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 8, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m49, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m49, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m33, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m9, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 9, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 33, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m50, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m50, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m34, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m10, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 10, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 34, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m51, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m51, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m35, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m11, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 35, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 11, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m52, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m52, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m36, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m12, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 36, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 12, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m53, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m53, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m37, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m13, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 37, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 13, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m54, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m54, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m38, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m14, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 14, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 38, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m55, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m55, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m39, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m15, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 39, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 15, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m56, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m56, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m40, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m16, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 16, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 40, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m57, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m57, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m41, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m17, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 17, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 41, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PINGREQ from mosq-zPPbdjAYU6NiA0RNJn
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PINGRESP to mosq-zPPbdjAYU6NiA0RNJn
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m58, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m58, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m42, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m18, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 42, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 18, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m59, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m59, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m43, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m19, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 43, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 19, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m60, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m60, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m44, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m20, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 44, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 20, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m61, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m61, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m45, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m21, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 45, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 21, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m62, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m62, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m46, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m22, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 46, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 22, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m63, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m63, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m47, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m23, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 47, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 23, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m64, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m64, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m48, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m24, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 48, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 24, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m65, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m65, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m49, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m25, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 49, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 25, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m66, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m66, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m50, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m26, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 50, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 26, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m67, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m67, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m51, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m27, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 27, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 51, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m68, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m68, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m52, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m28, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 52, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 28, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m69, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m69, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m53, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m29, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 29, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 53, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m70, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m70, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m54, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m30, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 54, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 30, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m71, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m71, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m55, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m31, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 55, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 31, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m72, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m72, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_3623239767 (d0, q1, r0, m56, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m32, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_3623239767 (Mid: 56, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 32, RC:0)
+E/MQTT    ( 5130): logging.c(325) log__vprintf: OpenSSL Error[0]: error:14095126:SSL routines:ssl3_read_n:unexpected eof while reading
+V/MQTT    ( 5130): logging.c(325) log__vprintf: Socket error on client cs-mqtt-client_3623239767, disconnecting.
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New connection from 192.168.0.108 on port 8883.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_preconnect(418) > on_pre_connect callback
+I/MQTT    ( 5113): st-broker-handler.c: on_connect(396) > on_connect callback
+V/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+V/MQTT    ( 5130): logging.c(325) log__vprintf: New client connected from 192.168.0.108 as cs-mqtt-client_2635190390 (p2, c1, k120, u'61646d69-6e44-6576-6963-234231423444').
+D/MQTT    ( 5130): logging.c(325) log__vprintf: No will message specified.
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending CONNACK to cs-mqtt-client_2635190390 (0, 0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2635190390
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/request/B827EB01-5793-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2635190390
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2635190390
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/response/B827EB01-5793-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2635190390
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2635190390
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/client/noti/B827EB01-5793-1111-1111-111111111111 (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2635190390
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received SUBSCRIBE from cs-mqtt-client_2635190390
+D/MQTT    ( 5130): logging.c(325) log__vprintf: 	/v1/cs/hub/info (QoS 1)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_subscribe(360) > on_subscribe callback
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending SUBACK to cs-mqtt-client_2635190390
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m73, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m73, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m33, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m1, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 33, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 1, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2635190390 (d0, q1, r0, m6, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (356 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2635190390 (m6, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m9, '/v1/cs/request/B827EB62-1721-1111-1111-111111111111', ... (356 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 9, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m74, '/v1/client/response/B827EB01-5793-1111-1111-111111111111', ... (224 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m74, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m2, '/v1/client/response/B827EB01-5793-1111-1111-111111111111', ... (224 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 2, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m75, '/v1/client/request/B827EB01-5793-1111-1111-111111111111', ... (165 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m75, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m3, '/v1/client/request/B827EB01-5793-1111-1111-111111111111', ... (165 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 3, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2635190390 (d0, q1, r0, m7, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (197 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2635190390 (m7, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2068602178 (d0, q1, r0, m10, '/v1/cs/response/B827EB62-1721-1111-1111-111111111111', ... (197 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2068602178 (Mid: 10, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m76, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m76, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m34, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m4, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 34, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 4, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m77, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m77, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m35, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m5, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 35, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 5, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m78, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m78, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m36, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m6, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 36, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 6, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m79, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m79, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m37, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m7, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 37, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 7, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m80, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m80, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m38, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m8, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 38, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 8, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m81, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m81, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m39, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m9, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 39, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 9, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m82, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m82, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m40, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m10, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 10, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 40, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m83, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m83, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m41, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m11, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 41, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 11, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m84, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m84, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m42, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m12, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 42, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 12, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m85, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m85, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m43, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m13, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 43, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 13, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m86, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m86, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m44, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m14, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 44, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 14, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m87, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m87, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m45, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m15, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 15, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 45, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m88, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m88, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m46, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m16, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 16, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 46, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m89, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m89, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m47, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m17, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 47, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 17, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m90, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m90, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m48, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m18, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 48, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 18, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m91, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m91, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m49, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m19, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 49, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 19, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m92, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m92, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m50, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m20, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 50, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 20, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m93, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m93, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m51, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m21, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 51, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 21, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m94, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m94, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m52, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m22, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 52, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 22, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m95, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m95, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m53, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m23, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 53, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 23, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m96, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m96, rc0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m54, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m24, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 24, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 54, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m97, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m97, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m55, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m25, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 55, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 25, RC:0)
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Saving in-memory database to ./mosquitto.db.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m98, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m98, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m56, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m26, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 56, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 26, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PINGREQ from mosq-zPPbdjAYU6NiA0RNJn
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PINGRESP to mosq-zPPbdjAYU6NiA0RNJn
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m99, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m99, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m57, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m27, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 57, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 27, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m100, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m100, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m58, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m28, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 58, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 28, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m101, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m101, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m59, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m29, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 59, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 29, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m102, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m102, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m60, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m30, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 60, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 30, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m103, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m103, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m61, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m31, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 31, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 61, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m104, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m104, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m62, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m32, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 62, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 32, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m105, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m105, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m63, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m33, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 63, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 33, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m106, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m106, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m64, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m34, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 34, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 64, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m107, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m107, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m65, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m35, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 35, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 65, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m108, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m108, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m66, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m36, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 66, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 36, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m109, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m109, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m67, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m37, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 37, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 67, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m110, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m110, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m68, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m38, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 68, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 38, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m111, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m111, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m69, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m39, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 69, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 39, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m112, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m112, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m70, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m40, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 70, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 40, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m113, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m113, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m71, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m41, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 41, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 71, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m114, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m114, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m72, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m42, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 42, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 72, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m115, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m115, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m73, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m43, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 73, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 43, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m116, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m116, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m74, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m44, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 74, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 44, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m117, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m117, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m75, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m45, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 75, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 45, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m118, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m118, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m76, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m46, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 76, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 46, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m119, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m119, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m77, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m47, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 47, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 77, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m120, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m120, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m78, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m48, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 78, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 48, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m121, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m121, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m79, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m49, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 79, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 49, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m122, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m122, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m80, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m50, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 50, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 80, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m123, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m123, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m81, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m51, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 81, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 51, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m124, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m124, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m82, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m52, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 52, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 82, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m125, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m125, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m83, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m53, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 53, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 83, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m126, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m126, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m84, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m54, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 54, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 84, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m127, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m127, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m85, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m55, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 85, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 55, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m128, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m128, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m86, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m56, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 86, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 56, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m129, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m129, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m87, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m57, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 87, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 57, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m130, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m130, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m88, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m58, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 88, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 58, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m131, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m131, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m89, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m59, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 89, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 59, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m132, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m132, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m90, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m60, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 90, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 60, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m133, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m133, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m91, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m61, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 91, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 61, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m134, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m134, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m92, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m62, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 62, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 92, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m135, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m135, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m93, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m63, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 93, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 63, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m136, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m136, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m94, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m64, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 64, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 94, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m137, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m137, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m95, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m65, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 65, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 95, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m138, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m138, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m96, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m66, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 96, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 66, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PINGREQ from mosq-zPPbdjAYU6NiA0RNJn
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PINGRESP to mosq-zPPbdjAYU6NiA0RNJn
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m139, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m139, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m97, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m67, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 97, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 67, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m140, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m140, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m98, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m68, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 98, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 68, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m141, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m141, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m99, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m69, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 99, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 69, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m142, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m142, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m100, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m70, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 100, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 70, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m143, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m143, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m101, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m71, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 101, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 71, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m144, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m144, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m102, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m72, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 102, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 72, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m145, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m145, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m103, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m73, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 73, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 103, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m146, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m146, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m104, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m74, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 104, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 74, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m147, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m147, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m105, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m75, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 105, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 75, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m148, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m148, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m106, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m76, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 106, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 76, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m149, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m149, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m107, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m77, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 107, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 77, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m150, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m150, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m108, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m78, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 108, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 78, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m151, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m151, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m109, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m79, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 79, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 109, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m152, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m152, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m110, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m80, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 80, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 110, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m153, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m153, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m111, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m81, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 111, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 81, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m154, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m154, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m112, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m82, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 112, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 82, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m155, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m155, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m113, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m83, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 113, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 83, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m156, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m156, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m114, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m84, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 114, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 84, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m157, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m157, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m115, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m85, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 115, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 85, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m158, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m158, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m116, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m86, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 86, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 116, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m159, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m159, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m117, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m87, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 117, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 87, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m160, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m160, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m118, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m88, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 118, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 88, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m161, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m161, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m119, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m89, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 119, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 89, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m162, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m162, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m120, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m90, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 120, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 90, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m163, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m163, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m121, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m91, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 91, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 121, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m164, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m164, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m122, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m92, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 122, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 92, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m165, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m165, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m123, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m93, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 123, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 93, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m166, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m166, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m124, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m94, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 124, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 94, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m167, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m167, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m125, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m95, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 95, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 125, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m168, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m168, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m126, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m96, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 126, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 96, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m169, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m169, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m127, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m97, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 127, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 97, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m170, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m170, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m128, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m98, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 128, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 98, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m171, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m171, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m129, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m99, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 99, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 129, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m172, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m172, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m130, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m100, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 100, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 130, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m173, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m173, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m131, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m101, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 131, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 101, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m174, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m174, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m132, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m102, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 132, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 102, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m175, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m175, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m133, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m103, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 133, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 103, RC:0)
+I/MQTT    ( 5113): st-broker-handler.c: on_publish(196) > on_publish callback start
+D/MQTT    ( 5130): INFO: Following log entry could not be sorted and is out of order.
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBLISH from cs-mqtt-client_2068602178 (d0, q1, r0, m176, '/v1/cs/hub/info', ... (218 bytes))
+I/MQTT    ( 5130): logging.c(325) log__vprintf: Emitting Signal
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBACK to cs-mqtt-client_2068602178 (m176, rc0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2330768733 (d0, q1, r0, m134, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Sending PUBLISH to cs-mqtt-client_2635190390 (d0, q1, r0, m104, '/v1/cs/hub/info', ... (218 bytes))
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2330768733 (Mid: 134, RC:0)
+D/MQTT    ( 5130): logging.c(325) log__vprintf: Received PUBACK from cs-mqtt-client_2635190390 (Mid: 104, RC:0)
